@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Даниил, resume">
+    <meta name="description" content="Это сайт - Даниила!">
+    <link rel="stylesheet" href="style.css">
+    <title>Резюме</title>
+</head>
+<body>
+    <div class="container">
+        <div class="info ">
+            <img src="Imgs/KDA AKALI.png" alt="Моя аватарка" class="imgs" width="200">
+            
+            <div class="info-text ">
+                <h1>Попов Даниил</h1>
+                <p>На данный момент являюсь студентом 4 курса 
+                в Многопрофельном коледже. Сейчас очень замотивирован стать
+                frontend-разрабодчиком.</p>
+                
+                <p>Я увлекаюсь спортом,люблю раслабляться играя в игры.</p>
+                
+                <h2>Мои социальные сети:</h2>
+                <a href="https://vk.com/id219403932" target="_blank">VK</a>
+            </div>
+        </div>
+
+        <div class="card bg-PaleVioletRed ">
+            <h2>Мои хобби</h2>
+            <div class="sol">
+                <ol>
+                    <li>Спорт</li>
+                    <li>Просмотр Формулы 1</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="card bg-LightCyan ">
+            <h2>Формула 1</h2>
+            <table id="table" class="tab">
+                <thead>
+                    <tr>
+                        <th>Название команды</th>
+                        <th>Время пит-стопа</th>
+                        <th>Виды шин</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ferrari</td>
+                        <td>2.5</td>
+                        <td>soft</td>
+                    </tr>
+                    <tr>
+                        <td>Red Bull</td>
+                        <td>3.2</td>
+                        <td>Hard</td>
+                    </tr>
+                    <tr>
+                        <td>Haas</td>
+                        <td>3.0</td>
+                        <td>Medium</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>  
+
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+            <form action="">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="text">Ваше имя</label>
+                        <input type="text" id="text" placeholder="Введите имя">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваш email</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="messange">Сообщение:</label>
+                    <textarea id="messange" cols="20" rows="3" 
+                    placeholder="Введите сообщение..."></textarea>
+                </div>
+
+                <button type="submit" class="btn">Отправить форму!</button>
+                <button type="reset" class="btn">Очистить форму!</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
